@@ -5,6 +5,7 @@
     <title>Login Page</title>
 </head>
 <body>
+<form name="login" action="/home/{username}" method="POST">
 <table>
     <tr>
         <td>Username</td>
@@ -15,10 +16,11 @@
         <td><input type="password" name="password" placeholder="Enter Password here"></td>
     </tr>
     <tr>
-        <td><input type="button" value="Submit"></td>
+        <td><input type="submit" value="Submit"></td>
         <td><input type="button" value="Register"></td>
     </tr>
 </table>
+</form>
 
 </body>
 </html>
