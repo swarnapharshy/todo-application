@@ -1,4 +1,4 @@
-package com.application.todoapplication;
+package com.application.todoapplication.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -5,11 +5,11 @@
     <title>Login Page</title>
 </head>
 <body>
-<form name="login" action="/home/{username}" method="POST">
+<form name="login" th:action="@{/home}" th:object="${username}" method="POST">
 <table>
     <tr>
         <td>Username</td>
-        <td><input type="text" name="username" placeholder="Enter Username Here"></td>
+        <td><input type="text" name="username" id="username" placeholder="Enter Username Here"></td>
     </tr>
     <tr>
         <td>Password</td>
